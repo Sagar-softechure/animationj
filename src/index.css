@@ -1,0 +1,77 @@
+@font-face {  font-family: 'Lobster';  src: url('./fonts/Lobster/Lobster-Regular.ttf');  font-weight: normal;  font-style: normal;}
+@font-face {  font-family: 'Montserrat';  src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');  font-weight: normal;  font-style: normal;}
+@font-face {  font-family: 'Poppins';  src: url('./fonts/Poppins/Poppins-Light.ttf');  font-weight: normal;  font-style: normal;}
+@font-face {  font-family: 'Nunito';  src: url('./fonts/Nunito_Sans/static/NunitoSans_10pt-Light.ttf');  font-weight: normal;  font-style: normal;}
+:root{
+  --gray-1:#fafafa;
+  --gray-2:#f5f5f5;
+  --gray-3:#f0f0f0;
+  --gray-4:#d9d9d9;
+  --gray-5:#bfbfbf;
+  --gray-6:#8c8c8c;
+  --gray-7:#595959;
+  --gray-8:#434343;
+  --active-color:#69b1ff;
+  font-size:40px;
+}
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lobster';
+}
+#main-logo{
+color: unset;
+margin-right: auto;
+}
+header .ant-menu li:after{
+  content:none !important;
+}
+.sub-head{
+  font-size:10px;
+  line-height: 12px;
+  font-family: 'Poppins';
+}
+section{
+  max-width:1440px;
+  padding:30px 60px;
+}
+header{
+  padding: 0 60px;
+}
+header .ant-menu{
+  border-bottom:none;
+}
+header .ant-menu li:not(#main-logo){
+
+}
+:root{
+  --animation-primary: .5s cubic-bezier(.3, 1, .3, 1);
+}
+header .ant-menu li:not(#main-logo) a{
+--reversed-link-gap: min(100%,100%);
+--transform-origin-end:right;
+width:fit-content;
+}
+header .ant-menu li:not(#main-logo) a{
+--reversed-link-gap: min(100%, 100%);
+background: linear-gradient(to var(--transform-origin-end), #000, #000) 0 var(--reversed-link-gap) / 0 1px no-repeat;
+background-position-x: var(--transform-origin-end);
+transition: background-size var(--animation-primary);
+}
+header .ant-menu li:not(#main-logo):hover a{
+  background-position-x: var(--transform-origin-start);
+  background-size: 100% 1.35px;
+}
+@media(max-width:767px){
+  .desktop{
+    display: none;
+  }
+}
+@media(min-width:768px){
+  .mobile{
+    display:none;
+  }
+}
