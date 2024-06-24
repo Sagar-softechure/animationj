@@ -29,6 +29,12 @@ margin-right: auto;
 header .ant-menu li:after{
   content:none !important;
 }
+footer{
+  position:fixed;
+  bottom:0;
+  left: 0;
+  right:0;
+}
 .sub-head{
   font-size:10px;
   line-height: 12px;

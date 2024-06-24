@@ -3,7 +3,7 @@ const Home = () =>{
 
     return(
         <>  
-        <section>
+        <section style={{height:"100vh"}}>
             <span className="sub-head">Split Text </span>
             <h1>
                 Home
