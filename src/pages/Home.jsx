@@ -24,12 +24,12 @@ function do_animate(){
       speedTween && speedTween.kill();
       speedTween = gsap.timeline()
       .to(tl, {
-        timeScale: 3 * self.direction,
+        timeScale: 10 * self.direction,
         duration: 0.25
       })
       .to(tl, {
         timeScale: 1 * self.direction,
-        duration: 1.5
+        duration: 1
       }, "+=0.5")
     },
     markers: false,
@@ -120,6 +120,7 @@ const Home = () => {
             <section>
               <div className="new-section">
                 <h2>hehe</h2>
+                <div class="button-text"><span data-hover="Click and Hold">View Case</span></div>
               </div>
             </section>
     </>
