@@ -1,16 +1,28 @@
 import React from "react";
-const Home = () =>{
+import gsap from "gsap-trial";
+import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
 
-    return(
-        <>  
-        <section>
-            <span className="sub-head">Split Text </span>
-            <h1>
-                Home
-            </h1>
-        </section>
-        </>
-    );
+gsap.registerPlugin(ScrollSmoother,ScrollTrigger);
+const Home = () => {
 
-}
+   
+      
+  return (
+    <>
+      {/* <div id="smooth-wrapper">
+        <div id="smooth-content">
+          <div className="component"> */}
+            <section className="banner-section">
+              <div className="back-img"></div>
+              <div className="front-image">
+                <h1 className="banner-text">Sagar johari</h1>
+              </div>
+            </section>
+          {/* </div>
+        </div>
+      </div> */}
+    </>
+  );
+};
 export default Home;
