@@ -15,7 +15,7 @@ import {
             key:'logo',
             label: (
               <h1 target="_blank" rel="noopener noreferrer">
-                <Link to={'/home'}>Animations</Link>
+                <Link to={'/'}>Animations</Link>
               </h1>
             ),
             id:'main-logo'
