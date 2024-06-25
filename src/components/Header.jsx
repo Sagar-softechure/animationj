@@ -35,28 +35,18 @@ import {
         children: [
           {
             type: 'group',
-            label: 'Item 1',
+            label: 'React Tools',
             children: [
               {
-                label: 'Option 1',
-                key: 'setting:1',
-              },
-              {
-                label: 'Option 2',
-                key: 'setting:2',
-              },
-            ],
-          },
-          {
-            type: 'group',
-            label: 'Item 2',
-            children: [
-              {
-                label: 'Option 3',
+                label: (
+                <Link to={'/axios'}>AXIOS</Link>  
+                ),
                 key: 'setting:3',
               },
               {
-                label: 'Option 4',
+                label: (
+                  <Link to={'/gemini'}>Gemini api</Link>  
+                ),
                 key: 'setting:4',
               },
             ],

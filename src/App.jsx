@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Nav from './components/Nav';
 const App = () => {
- return(
+  return(
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<Nav/>}>
