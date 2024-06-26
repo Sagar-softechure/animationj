@@ -49,6 +49,12 @@ import {
                 ),
                 key: 'setting:4',
               },
+              {
+                label: (
+                  <Link to={'/Child_parent'}>Child Parent</Link>  
+                ),
+                key: 'setting:4',
+              },
             ],
           },
         ],
