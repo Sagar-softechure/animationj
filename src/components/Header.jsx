@@ -41,17 +41,23 @@ import {
                 label: (
                 <Link to={'/axios'}>AXIOS</Link>  
                 ),
-                key: 'setting:3',
+                key: 'setting:1',
               },
               {
                 label: (
                   <Link to={'/gemini'}>Gemini api</Link>  
                 ),
-                key: 'setting:4',
+                key: 'setting:2',
               },
               {
                 label: (
                   <Link to={'/Child_parent'}>Child Parent</Link>  
+                ),
+                key: 'setting:3',
+              },
+              {
+                label: (
+                  <Link to={'/Tailwind'}>Tailwind</Link>  
                 ),
                 key: 'setting:4',
               },
