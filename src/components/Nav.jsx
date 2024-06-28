@@ -7,7 +7,7 @@ const Nav = () =>{
 return(<>
 <Header></Header>
 <Outlet/>
-<Footer/>
+{/* <Footer/> */}
 </>);
 
 

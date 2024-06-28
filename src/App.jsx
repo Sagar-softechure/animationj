@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Axios_page from './pages/Axios_page';
 import Childtoparent from './pages/Childtoparent';
 import Tailwind from './pages/Tailwind';
+import Hooks from './pages/Hooks';
 const App = () => {
   return(
   <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/gemini' element={<Home/>} />
       <Route path='/Child_parent' element={<Childtoparent/>} />
       <Route path='/Tailwind' element={<Tailwind/>} />
+      <Route path='/Hooks' element={<Hooks/>} />
     </Route>
   </Routes>
 </BrowserRouter>

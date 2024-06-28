@@ -61,6 +61,12 @@ import {
                 ),
                 key: 'setting:4',
               },
+              {
+                label: (
+                  <Link to={'/Hooks'}>Hooks</Link>  
+                ),
+                key: 'setting:5',
+              },
             ],
           },
         ],
